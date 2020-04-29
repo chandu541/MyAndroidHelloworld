@@ -6,6 +6,7 @@ pipeline {
             steps {
                 echo 'check out'
                 git credentialsId: 'Mygitpublic', url: 'https://github.com/chandu541/MyAndroidHelloworld.git'
+                echo 'check out finish'
 
             }
         }
